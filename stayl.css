@@ -1,0 +1,519 @@
+/*General CSS START*/
+body{
+background: linear-gradient(to left,#be8097, #f6d8e2);
+overflow: hidden;
+}
+
+.Container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:transparent;
+  width: 100%;
+  height: 100px;
+}
+/*General CSS End*/
+
+/*ball CSS START*/
+.ball1{
+  height: 120px;
+  width: 120px;
+  border-radius: 120%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement1 2.8s linear infinite;
+  background-image: url(img/download.jfif);
+}
+
+@keyframes movement1 {
+  16%, 48%, 78% {
+    top: 300px;
+    animation-timing-function: ease-out;
+  }
+
+  32% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+
+  62% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+
+  90% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball CSS End*/
+
+/*ball2 CSS START*/
+.ball2{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement2 2.4s linear infinite;
+  background-image: url(img/dowlnload.jfif);
+}
+
+@keyframes movement2 {
+  12%, 42%, 72% {
+    top: 300px;
+    animation-timing-function: ease-out;
+  }
+
+  34% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+
+  64% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+
+  92% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball2 CSS End*/
+
+/*ball3 CSS START*/
+.ball3{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement3 2.7s linear infinite;
+  background-image: url(img/download\ \(1\).jfif);
+}
+
+@keyframes movement3 {
+  14%, 44%, 74% {
+    top: 300px;
+    animation-timing-function: ease-out;
+  }
+
+  20% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball3 CSS End*/
+
+/*ball4 CSS START*/
+.ball4{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement4 3s linear infinite;
+  background-image: url(img/download\ \(2\).jfif);
+}
+
+@keyframes movement4 {
+  11%, 33%, 63% {
+    top: 300px;
+    animation-timing-function: ease-out;
+  }
+
+  28% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+
+  48% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+
+  78% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  95% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball4 CSS End*/
+
+/*ball5 CSS START*/
+.ball5{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement5 2.9s linear infinite;
+  background-image: url(img/download\ \(3\).jfif);
+}
+
+@keyframes movement5 {
+  10%, 43%, 73% {
+    top: 300px;
+    animation-timing-function: ease-out;
+  }
+
+  38% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+
+  58% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+
+  88% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  90% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball5 CSS End*/
+
+/*ball6 CSS START*/
+.ball6{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement6 1.5s linear infinite;
+  background-image: url(img/images.jfif);
+}
+
+@keyframes movement6 {
+  17%, 58%, 83% {
+    top: 300px;
+    animation-timing-function: ease-out;
+  }
+
+  28% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+
+  48% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+
+  68% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  88% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball6 CSS End*/
+
+/*ball7 CSS START*/
+.ball7{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement7 3.5s linear infinite;
+  background-image: url(img/images\ \(1\).jfif);
+}
+
+@keyframes movement7 {
+  14%, 51%, 87% {
+    top: 300px;
+    animation-timing-function: ease-in;
+  }
+
+  28% {
+    top: 50px;
+    animation-timing-function: ease-out;
+  }
+
+  66% {
+    top: 150px;
+    animation-timing-function: ease-in-out;
+  }
+
+  77% {
+    top: 200px;
+    animation-timing-function: ease-out;
+  }
+
+  98% {
+    top: 200px;
+    animation-timing-function: ease-in-out;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball7 CSS End*/
+
+/*ball8 CSS START*/
+.ball8{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement8 2.5s linear infinite;
+  background-image: url(img/images\ \(2\).jfif);
+}
+
+@keyframes movement8 {
+  12%, 63%, 83% {
+    top: 300px;
+    animation-timing-function: ease-in;
+  }
+
+  22% {
+    top: 50px;
+    animation-timing-function: ease-out;
+  }
+
+  69% {
+    top: 150px;
+    animation-timing-function: ease-in-out;
+  }
+
+  71% {
+    top: 200px;
+    animation-timing-function: ease-out;
+  }
+
+  91% {
+    top: 200px;
+    animation-timing-function: ease-in-out;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball8 CSS End*/
+
+/*ball9 CSS START*/
+.ball9{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement9 1.7s linear infinite;
+  background-image: url(img/images\ \(5\).jfif);
+}
+
+@keyframes movement9 {
+  12%, 63%, 83% {
+    top: 300px;
+    animation-timing-function: ease-in;
+  }
+
+  22% {
+    top: 50px;
+    animation-timing-function: ease-out;
+  }
+
+  69% {
+    top: 150px;
+    animation-timing-function: ease-in-out;
+  }
+
+  71% {
+    top: 200px;
+    animation-timing-function: ease-out;
+  }
+
+  91% {
+    top: 200px;
+    animation-timing-function: ease-in-out;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball9 CSS End*/
+
+/*ball10 CSS START*/
+.ball10{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement10 1.3s linear infinite;
+  background-image: url(img/download\ \(4\).jfif);
+}
+
+@keyframes movement10 {
+  16%, 48%, 78% {
+    top: 300px;
+    animation-timing-function: ease-out;
+  }
+
+  32% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+
+  62% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+
+  90% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball10 CSS End*/
+
+/*ball10 CSS START*/
+.ball11{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ca1909;
+  top: 0;
+  left: -30px;
+  animation: movement11 1.4s linear infinite;
+  background-image: url(img/iفmages.jfif);
+}
+
+@keyframes movement11 {
+  16%, 48%, 78% {
+    top: 300px;
+    animation-timing-function: ease-out;
+  }
+
+  32% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+
+  62% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+
+  90% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+/*ball11 CSS End*/
